@@ -3,41 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the Community Science Museum. Explore science, technology, and fun exhibits for kids and families.">
-    <title>Home | Community Science Museum</title>
+    <meta name="description" content="Discover educational programs at the Community Science Museum. Resources for students, teachers, and schools.">
+    <title>Education | Community Science Museum</title>
     <link rel="stylesheet" href="education.css">
 </head>
 <body>
 
     <header>
-        <h1>Community Science Museum</h1>
+        <h1>Community Science Museum </h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="exhibits.html">Exhibits</a></li>
-                <li><a href="visit.html">Plan Your Visit</a></li>
-                <li><a href="about.html">About</a></li>
+                <button onclick="location.href='/home/index.html'">Home</button>
+                <button onclick="location.href='/exhibits/exhibits.html'">Exhibits</button>
+                <button onclick="location.href='/visit/visit.html'">Visit</button>
             </ul>
         </nav>
     </header>
 
     
     <section class="hero">
-        <h2>Explore. Discover. Learn.</h2>
-        <p>Exciting exhibits and interactive experiences for curious minds of all ages.</p>
-        <p>New Community Science Museum coming to Stavanger</p>
-        <a href="visit.html" class="btn">Plan Your Visit</a>
+        <h2>Inspire Young Minds</h2>
+        <p>We believe that science education should be fun, hands-on, and inspiring for all ages!</p>
+        <a href="/visit/visit.html" class="btn">Plan a School Visit</a>
     </section>
-
     
+    <section class="education">
+        <div class="edu-box">
+            <h2>Programs & Resources</h2>
+    
+            <div class="edu-item">
+                <h3> School Visits</h3>
+                <p>Book a guided tour and interactive experience for your class. Available for all grades.</p>
+            </div>
+    
+            <div class="edu-item">
+                <h3> Lesson Materials</h3>
+                <p>Download free worksheets and science activity guides for use in the classroom or at home.</p>
+            </div>
+    
+            <div class="edu-item">
+                <h3> Teacher Workshops</h3>
+                <p>Professional development opportunities focused on STEM and inquiry-based learning.</p>
+            </div>
+    
+            <div class="edu-item">
+                <h3> Student Science Clubs</h3>
+                <p>Monthly after-school programs for curious minds to dive deeper into science topics.</p>
+            </div>
+        </div>
+    </section>
+    
+
     <footer>
         <nav>
             <ul>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="education.html">Education</a></li>
+                <button onclick="location.href='/about/about.html'">About</button>
+                <button onclick="location.href='/events/events.html'">Events</button>
+                <button onclick="location.href='/education/education.html'">Education</button>
             </ul>
         </nav>
         <p>&copy; 2024 Community Science Museum</p>
     </footer>
+
 </body>
 </html>

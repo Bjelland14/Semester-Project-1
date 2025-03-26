@@ -3,38 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the Community Science Museum. Explore science, technology, and fun exhibits for kids and families.">
-    <title>Home | Community Science Museum</title>
-    <link rel="stylesheet" href="exhibits.cs">
+    <meta name="description" content="Discover the exciting exhibits at the Community Science Museum, from space exploration to dinosaurs and robotics.">
+    <title>Exhibits | Community Science Museum</title>
+    <link rel="stylesheet" href="exhibits.css">
 </head>
 <body>
 
     <header>
-        <h1>Exhibits</h1>
+        <h1>Community Science Museum</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="exhibits.html">Exhibits</a></li>
-                <li><a href="visit.html">Plan Your Visit</a></li>
-                <li><a href="about.html">About</a></li>
+                <button onclick="location.href='/home/index.html'">Home</button>
+                <button onclick="location.href='/exhibits/exhibits.html'">Exhibits</button>
+                <button onclick="location.href='/visit/visit.html'">Visit</button>
             </ul>
         </nav>
     </header>
 
-    
     <section class="hero">
         <h2>Explore. Discover. Learn.</h2>
         <p>Exciting exhibits and interactive experiences for curious minds of all ages.</p>
-        <p>New Community Science Museum coming to Stavanger</p>
-        <a href="visit.html" class="btn">Plan Your Visit</a>
+        <a href="/visit/visit.html" class="btn">Plan Your Visit</a>
     </section>
 
-    
+    <section class="exhibits">
+        <h2>Our Exhibits</h2>
+        <p>Discover our fascinating exhibits, designed to inspire and educate visitors of all ages.</p>
+
+        <div class="exhibit-list">
+
+            
+            <div class="exhibit-item">
+                <img src="/assets/assets/andrew-ruiz-348421.jpg" alt="Space Exploration">
+                <h3>Space Exploration</h3>
+                <p>Journey through the cosmos and learn about planets, black holes, and the latest space missions.
+                <p>With use of VR headsett see the universe.</p>    
+                </p>
+            </div>
+
+            
+            <div class="exhibit-item">
+                <img src="/assets/assets/toa-heftiba-412579.jpg" alt="Dinosaur skeleton in a museum">
+                <h3>Dinosaurs Unearthed</h3>
+                <p>Step back in time and come face-to-face with life-sized dinosaur skeletons and fossils.</p>
+            </div>
+
+            
+            <div class="exhibit-item">
+                <img src="/assets/assets/samuel-zeller-158996.jpg" alt="A robotic arm in a science lab">
+                <h3>Robotics Lab</h3>
+                <p>Explore the world of AI and robotics. Try coding and controlling real robots.</p>
+            </div>
+
+            
+            <div class="exhibit-item">
+                <img src="/assets/assets/samuel-zeller-113381.jpg" alt="Interactive human anatomy exhibit">
+                <h3>Human Biology</h3>
+                <p>Discover the wonders of the human body with interactive anatomy exhibits.</p>
+            </div>
+
+        </div>
+    </section>
+
     <footer>
         <nav>
             <ul>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="education.html">Education</a></li>
+                <button onclick="location.href='/about/about.html'">About</button>
+                <button onclick="location.href='/events/events.html'">Events</button>
+                <button onclick="location.href='/education/education.html'">Education</button>
             </ul>
         </nav>
         <p>&copy; 2024 Community Science Museum</p>

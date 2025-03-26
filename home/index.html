@@ -6,6 +6,7 @@
     <meta name="description" content="Welcome to the Community Science Museum. Explore science, technology, and fun exhibits for kids and families.">
     <title>Home | Community Science Museum</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
@@ -13,28 +14,43 @@
         <h1>Community Science Museum</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="exhibits.html">Exhibits</a></li>
-                <li><a href="visit.html">Plan Your Visit</a></li>
-                <li><a href="about.html">About</a></li>
+                <button onclick="location.href='/home/index.html'">Home</button>
+                <button onclick="location.href='/exhibits/exhibits.html'">Exhibits</button>
+                <button onclick="location.href='/visit/visit.html'">Visit</button>
             </ul>
         </nav>
     </header>
 
     
-    <section class="hero">
+    <section class="visit-card">
         <h2>Explore. Discover. Learn.</h2>
         <p>Exciting exhibits and interactive experiences for curious minds of all ages.</p>
         <p>New Community Science Museum coming to Stavanger</p>
-        <a href="visit.html" class="btn">Plan Your Visit</a>
+        <a href="/visit/visit.html" class="btn">Plan Your Visit</a>
     </section>
 
-    
+    <section class="Welcome">
+        <h2>Welcome to our Museum!</h2>
+        <p>
+            The Community Science Museum is a place where fun meets education.
+            Bring your curiosity and explore the wonders of space,robotics, and many more.
+        </p>
+    </section>
+
+    <section class="quick-links">
+        <h2>Start Exploring</h2>
+        <div class="link-buttons"></div>
+            <a href="/exhibits/exhibits.html" class="btn">View Exhibits</a>
+            <a href="/education/education.html" class="btn">Educational Resources</a>
+            <a href="/events/events.html" class="btn">Upcoming Events</a>
+        </div>
+    </section>
     <footer>
         <nav>
             <ul>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="education.html">Education</a></li>
+                <button onclick="location.href='/about/about.html'">About</button>
+                <button onclick="location.href='/events/events.html'">Events</button>
+                <button onclick="location.href='/education/education.html'">Education</button>
             </ul>
         </nav>
         <p>&copy; 2024 Community Science Museum</p>

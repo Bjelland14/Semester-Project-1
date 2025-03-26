@@ -1,0 +1,80 @@
+html {
+    --font-family: Arial, sans-serif;
+    --primary-color: #0077b6;
+    --secondary-color: #ffbe0b;
+ }
+
+
+ body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+nav ul button:hover {
+    color: var(--secondary-color);
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #005f8a;
+}
+
+
+
+.visit-card {
+    background-color: var(--secondary-color);
+    padding: 50px 20px;
+}
+
+.visit-card h2 {
+    margin: 0;
+    font-size: 28px;
+    color: var(--primary-color);
+}
+
+.visit-card p {
+    font-size: 18px;
+    color: #333;
+}
+
+

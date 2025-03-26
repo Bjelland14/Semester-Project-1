@@ -4,37 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to the Community Science Museum. Explore science, technology, and fun exhibits for kids and families.">
-    <title>Home | Community Science Museum</title>
+    <title>Visit | Community Science Museum</title>
     <link rel="stylesheet" href="visit.css">
+    <link rel="stylesheet" href="../styles.css">
+
 </head>
 <body>
 
     <header>
-        <h1>Come and visit us</h1>
+        <h1>Community Science Museum</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="exhibits.html">Exhibits</a></li>
-                <li><a href="visit.html">Plan Your Visit</a></li>
-                <li><a href="about.html">About</a></li>
+                <button onclick="location.href='/home/index.html'">Home</button>
+                <button onclick="location.href='/exhibits/exhibits.html'">Exhibits</button>
+                <button onclick="location.href='/visit/visit.html'">Visit</button>
             </ul>
         </nav>
     </header>
 
     
-    <section class="hero">
-        <h2>Explore. Discover. Learn.</h2>
+    <section class="visit-card">
+        <h2>Plan your visit to us</h2>
         <p>Exciting exhibits and interactive experiences for curious minds of all ages.</p>
         <p>New Community Science Museum coming to Stavanger</p>
-        <a href="visit.html" class="btn">Plan Your Visit</a>
+        <a href="/visit/visit.html" class="btn">Plan Your Visit</a>
     </section>
 
+
+    <section class="visit-info">
+        <h2>Opening Hours</h2>
+        <p>Monday-Friday:10:00 AM - 4:00 PM</p>
+        <p>Saturday-Sunday: 11:00 AM - 6:00PM</p>
+        <p>Open Ordinary times in Public Holidays</p>
+            
+    <h2>Ticket price</h2>
+    <p>Children (Under 5): Free</p>
+    <p>Children (5-15):50NOK</p>
+    <p>Adults:100NOK</p>
+    <p>Family Ticket (2 Adults + 2+Kids):250NOK</p>
+
+    <h2>Locations</h2>
+    <p>Community Science Museum</p>
+    <p>Stavanger City Centre</p>
+    <p>4 Oljegate, 4000 Stavanger</p>
+
+    <h2>Contact Us</h2>
+    <p>Email:info@communityscience.no</p>
+    <p>Phone: +47 40101179</p>
+    
+    </section>
     
     <footer>
         <nav>
             <ul>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="education.html">Education</a></li>
+                <button onclick="location.href='/about/about.html'">About</button>
+                <button onclick="location.href='/events/events.html'">Events</button>
+                <button onclick="location.href='/education/education.html'">Education</button>
             </ul>
         </nav>
         <p>&copy; 2024 Community Science Museum</p>
