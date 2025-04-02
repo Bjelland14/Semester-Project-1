@@ -19,54 +19,6 @@ header h1 {
     font-size: 24px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 10px;
-}
-
-nav ul button:hover {
-    color: #ffbe0b; 
-}
-
-
-.hero {
-    background-color: #ffbe0b; 
-    padding: 50px 20px;
-}
-
-.hero h2 {
-    margin: 0;
-    font-size: 28px;
-    color: #0077b6;
-}
-
-.hero p {
-    font-size: 18px;
-    color: #333;
-}
-
-.hero button {
-    background-color: #0077b6;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.hero button:hover {
-    background-color: #005f8a;
-}
 
 
 .about-section {
@@ -95,22 +47,3 @@ nav ul button:hover {
 }
 
 
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-footer nav ul button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 10px;
-}
-
-footer nav ul button:hover {
-    color: #ffbe0b;
-}

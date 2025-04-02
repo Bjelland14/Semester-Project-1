@@ -25,48 +25,6 @@ nav ul {
     padding: 0;
 }
 
-nav ul button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 10px;
-}
-
-nav ul button:hover {
-    color: #ffbe0b;
-}
-
-.hero {
-    background-color: #ffbe0b;
-    padding: 50px 20px;
-}
-
-.hero h2 {
-    margin: 0;
-    font-size: 28px;
-    color: #0077b6;
-}
-
-.hero p {
-    font-size: 18px;
-    color: #333;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #0077b6;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background-color: #005f8a;
-}
 
 .events {
     max-width: 800px;
@@ -106,22 +64,5 @@ nav ul button:hover {
     line-height: 1.5;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    padding: 15px 0;
-    margin-top: 40px;
-}
 
-footer nav ul button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 10px;
-}
 
-footer nav ul button:hover {
-    color: #ffbe0b;
-}
