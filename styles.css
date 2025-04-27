@@ -2,10 +2,10 @@ html {
     --font-family: Arial, sans-serif;
     --primary-color: #0077b6;
     --secondary-color: #ffbe0b;
- }
+}
 
 
- body {
+body {
     font-family: var(--font-family);
     margin: 0;
     padding: 0;
@@ -21,29 +21,54 @@ header {
     padding: 15px 0;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 24px;
+nav {
+    position: relative;
+    padding: 10px 20px;
 }
 
-nav ul {
+.nav-bar {
+    display: flex;
+    align-items: center;
     list-style: none;
-    padding: 0;
+    gap: 20px;
 }
 
-nav ul button {
-    background: none;
-    border: none;
+.nav-bar li a {
+    text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-bar .logo a img {
+    height: 50px;
+}
+
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
     cursor: pointer;
-    padding: 10px;
+    height: 24px;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
 }
 
-nav ul button:hover {
-    color: var(--secondary-color);
+.hamburger-menu span {
+    display: block;
+    height: 3px;
+    width: 25px;
+    background: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
 }
 
+
+#check {
+    display: none;
+}
 
 .btn {
     display: inline-block;
@@ -60,29 +85,16 @@ nav ul button:hover {
 }
 
 
-
-.visit-card {
-    background-color: var(--secondary-color);
-    padding: 50px 20px;
-}
-
-.visit-card h2 {
-    margin: 0;
-    font-size: 28px;
-    color: var(--primary-color);
-}
-
-.visit-card p {
-    font-size: 18px;
-    color: #333;
-}
-
-
 footer {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
 }
 
 footer nav ul button {
@@ -96,4 +108,62 @@ footer nav ul button {
 
 footer nav ul button:hover {
     color: var(--secondary-color);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        background-color: var(--primary-color);
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+        opacity: 0;
+        transform: translateY(-20px);
+        pointer-events: none;
+        transition: all 0.4s ease;
+    }
+
+    #check:checked ~ .nav-bar {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    /* X animation (optional if you want) */
+    #check:checked + .hamburger-menu span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    #check:checked + .hamburger-menu span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #check:checked + .hamburger-menu span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
 }

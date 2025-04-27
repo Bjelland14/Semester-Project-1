@@ -10,19 +10,29 @@
 
 </head>
 <body>
-
     <header>
-        <h1>Community Science Museum</h1>
         <nav>
-            <ul>
-                <button onclick="location.href='/home/index.html'">Home</button>
-                <button onclick="location.href='/exhibits/exhibits.html'">Exhibits</button>
-                <button onclick="location.href='/visit/visit.html'">Visit</button>
-            </ul>
+          <input type="checkbox" id="check">
+          <label for="check" class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+      
+          <ul class="nav-bar">
+            <li class="logo">
+              <a href="/home/index.html">
+                <img src="/assets/assets/CommunityScienceMuseumLogo.png" alt="Community Science Museum Logo" style="height: 50px;">
+              </a>
+            </li>
+            <li><a href="/home/index.html">Home</a></li>
+            <li><a href="/exhibits/exhibits.html">Exhibits</a></li>
+            <li><a href="/visit/visit.html">Visit</a></li>
+            <li><a href="/about/about.html">About</a></li>
+          </ul>
         </nav>
-    </header>
-
-    
+      </header>
+      
     <section class="visit-card">
         <h2>Plan your visit to us</h2>
         <p>Exciting exhibits and interactive experiences for curious minds of all ages.</p>
@@ -62,7 +72,18 @@
                 <button onclick="location.href='/education/education.html'">Education</button>
             </ul>
         </nav>
-        <p>&copy; 2024 Community Science Museum</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="/assets/assets/facebook.png" alt="Facebook icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="/assets/assets/instagram.png" alt="Instagram icon">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+              <img src="/assets/assets/twitter.png" alt="Twitter icon">
+            </a>
+          </div>
+        <p>&copy; 2025 Community Science Museum</p>
     </footer>
 </body>
 </html>

@@ -1,92 +1,51 @@
-# Semester-Project-1
-Project Overview
+# Community Science Museum Website Project
 
-This project is a responsive, engaging, and accessible website for the Community Science Museum, designed for primary and middle school children (ages 7-15) and their families. The goal is to provide information about the museum’s exhibits, events, and educational resources while ensuring a user-friendly experience on all devices.
+Welcome to the Community Science Museum Website Project!  
+This project was built as part of the Semester 1 final assignment to demonstrate skills in HTML, CSS, responsive design, accessibility, SEO, and project management.
 
-Features
+---
 
-✅ Responsive design (works on desktop, tablet, and mobile)
-✅ SEO-friendly structure (meta tags, alt text, and semantic HTML)
-✅ Accessible for users with disabilities (WCAG compliance)
-✅ Optimized images for fast loading (under 200KB per image)
-✅ Clean and structured code following best practices (HTML5, CSS3)
+##  Project Goals
 
-Pages
+- Create a responsive, accessible website for the Community Science Museum.
+- Engage children (ages 7-15) and their families.
+- Showcase clean semantic HTML and modular CSS.
+- Follow WCAG accessibility standards and SEO best practices.
 
-1️⃣ Home Page (index.html)
+---
 
-Welcoming hero section
+##  Project Details
 
-Introduction to the museum
+- **Languages:** HTML5, CSS3
+- **Planning Tools:** GitHub Projects
+- **Design Tools:** Figma (wireframes and prototypes)
+- **Version Control:** Git and GitHub
+- **Deployment:** GitHub Pages (or Netlify, Vercel)
 
-Quick links to key pages
+---
 
-Call-to-action: "Plan Your Visit"
+##  Features
 
-2️⃣ Exhibits Page (exhibits.html)
+- Responsive design (desktop, tablet, mobile)
+- Hamburger menu navigation
+- SEO-optimized meta tags and descriptions
+- Accessible design (keyboard navigable, high contrast, alt texts)
+- External CSS with DRY principle
+- Social Media links in footer
 
-Showcase different science exhibits (Space, Dinosaurs, Robotics, etc.)
+---
 
-Images and descriptions
+## 📎 Links
 
-3️⃣ Plan Your Visit Page (visit.html)
+- **Live Site:** [Insert your live link here]
+- **GitHub Repository:** [Insert your GitHub repository link here]
+- **Figma Prototype:** [Insert your Figma link here] (if available)
 
-Opening hours
+---
 
-Ticket pricing
 
-Directions & Google Maps integration
 
-Contact information
-
-4️⃣ Educational Resources Page (education.html)
-
-Learning activities & downloadable PDFs
-
-Science quizzes & video resources
-
-🔹 Additional Pages (Optional)
-
-✅ About Us (about.html) - History & mission statement
-✅ Events & News (events.html) - Upcoming museum events & workshops
-
-Design & Style Guide
-
-🎨 Color Palette
-
-Primary (Blue): #0077b6 (Navbar & buttons)
-
-Secondary (Yellow): #ffbe0b (Highlights & CTAs)
-
-Accent (Red): #e63946 (Important elements)
-
-Background (Light Gray): #f8f9fa
-
-Text (Dark Gray): #333333
-
-🖋 Typography
-
-Headings: Poppins or Montserrat (Bold & friendly)
-
-Body text: Open Sans or Roboto (Clean & readable)
-
-Button text: Montserrat (Bold)
-
-What Went Well / Challenges
-
-✅ Successes:
-
-Clean, structured HTML & CSS
-
-Fully responsive and accessible design
-
-Fast-loading pages with optimized assets
-
-🚧 Challenges:
-
-Ensuring WCAG compliance
-
-Time management for multiple pages
-
-Adjusting layout for mobile screens
-
+```bash
+git clone https://github.com/yourusername/yourrepositoryname.git
+cd yourrepositoryname
+open index.html
