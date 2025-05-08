@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -9,6 +10,37 @@ body {
 h2 {
   color: #005f8a;
   margin-top: 0;
+}
+
+.visit-card,
+.Welcome,
+.quick-links {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.hero-image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.hero-image-row img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .hamburger-menu {
@@ -48,41 +80,9 @@ h2 {
   }
 
   .hamburger-menu {
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
     border-radius: 8px;
   }
-
- 
-
-.visit-card,
-.Welcome,
-.quick-links {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  text-align: center;
-}
-
-.hero-image-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin: 40px auto;
-  max-width: 900px;
-}
-
-.hero-image-row img {
-  width: 100%;
-  max-width: 250px;
-  height: auto;
-  object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
