@@ -1,30 +1,8 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
-    text-align: center;
-}
-
-header {
-    background-color: #0077b6;
-    color: white;
-    padding: 15px 0;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-
-
 .education {
     padding: 40px 20px;
-}
-
-.edu-box {
+  }
+  
+  .edu-box {
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
@@ -32,33 +10,47 @@ header h1 {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: left;
-}
-
-.edu-box h2 {
+  }
+  
+  .edu-box h2 {
     text-align: center;
     font-size: 24px;
     color: #0077b6;
     margin-bottom: 30px;
-}
-
-.edu-item {
+  }
+  
+  .edu-item {
     margin-bottom: 25px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 15px;
-}
-
-.edu-item:last-child {
+  }
+  
+  .edu-item:last-child {
     border-bottom: none;
-}
-
-.edu-item h3 {
+  }
+  
+  .edu-item h3 {
     color: #0077b6;
     font-size: 20px;
     margin-bottom: 5px;
-}
-
-.edu-item p {
+  }
+  
+  .edu-item p {
     font-size: 16px;
     line-height: 1.5;
-}
-
+  }
+  
+  .hero-image-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+  }
+  
+  .hero-image-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,50 +1,55 @@
+
 html {
     --font-family: Arial, sans-serif;
     --primary-color: #0077b6;
     --secondary-color: #ffbe0b;
-}
-
-
-body {
+    --dark-color: #333;
+  }
+  
+  body {
     font-family: var(--font-family);
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-    color: #333;
+    color: var(--dark-color);
     text-align: center;
-}
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
 
-
-header {
+  header {
     background-color: var(--primary-color);
     color: white;
     padding: 15px 0;
-}
-
-nav {
+  }
+  
+  nav {
     position: relative;
-    
-}
-
-.nav-bar {
+  }
+  
+  .nav-bar {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 20px;
-}
-
-.nav-bar li a {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-}
-
-.nav-bar .logo a img {
+  }
+  
+  .logo img {
     height: 50px;
-}
-
-
-.hamburger-menu {
+  }
+  
+  .hamburger-menu {
     display: none;
     flex-direction: column;
     cursor: pointer;
@@ -54,23 +59,23 @@ nav {
     top: 20px;
     right: 20px;
     z-index: 1000;
-}
-
-.hamburger-menu span {
+  }
+  
+  .hamburger-menu span {
     display: block;
     height: 3px;
     width: 25px;
     background: white;
     border-radius: 5px;
     transition: all 0.3s ease;
-}
-
-
-#check {
+  }
+  
+  #check {
     display: none;
-}
-
-.btn {
+  }
+  
+  
+  .btn {
     display: inline-block;
     background-color: var(--primary-color);
     color: white;
@@ -78,91 +83,100 @@ nav {
     text-decoration: none;
     margin: 10px;
     border-radius: 5px;
-}
-
-.btn:hover {
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
     background-color: #005f8a;
-}
-
-
-footer {
-    background-color: #333;
+  }
+  
+  
+  footer {
+    background-color: var(--dark-color);
     color: white;
-    padding: 0.1rem;
+    padding: 1rem;
     margin-top: 20px;
-}
-
-footer nav ul {
+  }
+  
+  footer nav ul {
     list-style: none;
     padding: 0;
-}
-
-footer nav ul button {
+    margin: 0 0 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  footer nav ul button {
     background: none;
     border: none;
     color: white;
     font-size: 16px;
     cursor: pointer;
     padding: 10px;
-}
-
-footer nav ul button:hover {
+    font-family: var(--font-family);
+  }
+  
+  footer nav ul button:hover {
     color: var(--secondary-color);
-}
-
-.social-icons {
+  }
+  
+  .social-icons {
     display: flex;
     justify-content: center;
     gap: 15px;
     margin: 20px 0;
-}
-
-.social-icons img {
+  }
+  
+  .social-icons img {
     width: 30px;
     height: 30px;
     transition: transform 0.3s ease;
-}
-
-.social-icons img:hover {
+  }
+  
+  .social-icons img:hover {
     transform: scale(1.2);
-}
-
-
-@media (max-width: 768px) {
+  }
+  
+  
+  @media (max-width: 768px) {
     .hamburger-menu {
-        display: flex;
+      display: flex;
     }
-
+  
     .nav-bar {
-        flex-direction: column;
-        background-color: var(--primary-color);
-        position: absolute;
-        top: 70px;
-        right: 0;
-        width: 200px;
-        padding: 20px;
-        opacity: 0;
-        transform: translateY(-20px);
-        pointer-events: none;
-        transition: all 0.4s ease;
+      flex-direction: column;
+      background-color: var(--primary-color);
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 200px;
+      padding: 20px;
+      opacity: 0;
+      transform: translateY(-20px);
+      pointer-events: none;
+      transition: all 0.4s ease;
+      z-index: 999;
     }
-
+  
     #check:checked ~ .nav-bar {
-        display: flex;
-        opacity: 1;
-        transform: translateY(0);
-        pointer-events: auto;
+      display: flex;
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
     }
-
+  
     #check:checked + .hamburger-menu span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
+      transform: rotate(45deg) translate(5px, 5px);
     }
-
+  
     #check:checked + .hamburger-menu span:nth-child(2) {
-        opacity: 0;
+      opacity: 0;
     }
-
+  
     #check:checked + .hamburger-menu span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
+      transform: rotate(-45deg) translate(5px, -5px);
     }
-}
+  }
+  
