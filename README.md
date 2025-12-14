@@ -1,40 +1,27 @@
- Community Science Museum Website Project
+# Semester Project 1 – Community Science Museum
 
-Welcome to the Community Science Museum Website Project!  
-This project was built as part of the Semester 1 final assignment to demonstrate skills in HTML, CSS, responsive design, accessibility, SEO, and project management.
+This project was created as part of Semester Project 1 in the Front-End Development program.
+The goal was to design and develop a responsive and accessible museum website.
 
+## Features
+- Responsive layout
+- Clear navigation
+- Accessible design
+- Informational content pages
 
+## Built With
+- HTML
+- CSS
+- JavaScript
 
-  Project Goals
+## Live Site
+https://bjelland14.github.io/Semester-Project-1/
 
-- Create a responsive, accessible website for the Community Science Museum.
-- Engage children (ages 7-15) and their families.
-- Showcase clean semantic HTML and modular CSS.
-- Follow WCAG accessibility standards and SEO best practices.
+## GitHub Repository
+https://github.com/Bjelland14/Semester-Project-1
 
-
-
-##  Project Details
-
-- Languages: HTML5, CSS3
-- Planning Tools: GitHub Projects
-- Design Tools: Figma (wireframes and prototypes)
-
- 
- Features
-
-- Responsive design (desktop, tablet, mobile)
-- Hamburger menu navigation
-  
-
- 
- Links
-
-
-- GitHub Repository: https://github.com/Bjelland14/Semester-Project-1
-- Figma Prototype: https://www.figma.com/design/UcDXuC2HiwTwY5qRRtCXZt/Community-Science-Museum?t=thVFhBC4toCGyxUl-0
-
-
+## Improvements
+- Improved project documentation and readability in the README file.
 
 
 

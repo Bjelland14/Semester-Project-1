@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <nav>
+    <nav aria-label="Main navigation">
       <input type="checkbox" id="check">
       <label for="check" class="hamburger-menu">
         <span></span>
@@ -22,65 +22,72 @@
 
       <ul class="nav-bar">
         <li class="logo">
-          <img src="assets/assets/CommunityScienceMuseumLogo.png" alt="Community Science Museum Logo" style="height: 50px;">
+          <img src="assets/assets/CommunityScienceMuseumLogo.png"
+               alt="Community Science Museum logo"
+               style="height: 50px;">
         </li>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="exhibits/exhibits.html">Exhibits</a></li>
         <li><a href="visit/visit.html">Visit</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="visit-card">
-    <h2>Explore. Discover. Learn.</h2>
-    <p>Exciting exhibits and interactive experiences for curious minds of all ages.</p>
-    <p>New Community Science Museum coming to Stavanger</p>
-    <p>Community Science Museum</p>
-    <p>Stavanger City Centre</p>
-    <p>4 Oljegate, 4000 Stavanger</p>
-    <a href="visit/visit.html" class="btn">Plan Your Visit</a>
-  </section>
+  <main>
+    <section class="visit-card">
+      <h2>Explore. Discover. Learn.</h2>
+      <p>Exciting exhibits and interactive experiences for curious minds of all ages.</p>
+      <p>New Community Science Museum coming to Stavanger</p>
+      <p>Community Science Museum</p>
+      <p>Stavanger City Centre</p>
+      <p>4 Oljegate, 4000 Stavanger</p>
+      <a href="visit/visit.html" class="btn">Plan Your Visit</a>
+    </section>
 
-  <section class="Welcome">
-    <h2>Welcome to our Museum!</h2>
-    <p>The Community Science Museum is a place where fun meets education. Bring your curiosity and explore the wonders of space, robotics, and more.</p>
-  </section>
+    <section class="welcome">
+      <h2>Welcome to our Museum!</h2>
+      <p>
+        The Community Science Museum is a place where fun meets education.
+        Bring your curiosity and explore the wonders of space, robotics, and more.
+      </p>
+    </section>
 
-  <section class="quick-links">
-    <h2>Start Exploring</h2>
-    <div class="link-buttons">
-      <a href="exhibits/exhibits.html" class="btn">🧪 View Exhibits</a>
-      <a href="education/education.html" class="btn">📚 Educational Resources</a>
-      <a href="events/events.html" class="btn">🎉 Upcoming Events</a>
-    </div>
-  </section>
+    <section class="quick-links">
+      <h2>Start Exploring</h2>
+      <div class="link-buttons">
+        <a href="exhibits/exhibits.html" class="btn">🧪 View Exhibits</a>
+        <a href="education/education.html" class="btn">📚 Educational Resources</a>
+        <a href="events/events.html" class="btn">🎉 Upcoming Events</a>
+      </div>
+    </section>
 
-  <div class="hero-image-row">
-    <div class="image-box">
-      <img src="assets/assets/Stavangermuseum.png" alt="Museum exterior">
+    <div class="hero-image-row">
+      <div class="image-box">
+        <img src="assets/assets/Stavangermuseum.png" alt="Exterior view of the Community Science Museum">
+      </div>
+      <div class="image-box">
+        <img src="assets/assets/boyholdingamap.png" alt="Child holding a map inside the museum">
+      </div>
     </div>
-    <div class="image-box">
-      <img src="assets/assets/boyholdingamap.png" alt="Boy holding map">
-    </div>
-  </div>
+  </main>
 
   <footer>
-    <nav>
+    <nav aria-label="Footer navigation">
       <ul>
-        <button onclick="location.href='about/about.html'">About</button>
-        <button onclick="location.href='events/events.html'">Events</button>
-        <button onclick="location.href='education/education.html'">Education</button>
+        <li><a href="about/about.html" class="btn">About</a></li>
+        <li><a href="events/events.html" class="btn">Events</a></li>
+        <li><a href="education/education.html" class="btn">Education</a></li>
       </ul>
     </nav>
 
     <div class="social-icons">
-      <a href="https://www.facebook.com" target="_blank">
+      <a href="https://www.facebook.com" target="_blank" rel="noopener">
         <img src="assets/assets/facebook.png" alt="Facebook icon">
       </a>
-      <a href="https://www.instagram.com" target="_blank">
+      <a href="https://www.instagram.com" target="_blank" rel="noopener">
         <img src="assets/assets/instagram.png" alt="Instagram icon">
       </a>
-      <a href="https://www.twitter.com" target="_blank">
+      <a href="https://www.twitter.com" target="_blank" rel="noopener">
         <img src="assets/assets/twitter.png" alt="Twitter icon">
       </a>
     </div>
