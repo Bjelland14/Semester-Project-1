@@ -21,7 +21,8 @@ https://bjelland14.github.io/Semester-Project-1/
 https://github.com/Bjelland14/Semester-Project-1
 
 ## Improvements
-- Improved project documentation and readability in the README file.
+- Improved project documentation and readability in the README file. 
+- Improved homepage HTML by introducing a clearer semantic structure using the main element.
 
 
 
